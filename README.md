@@ -124,7 +124,7 @@ src/
 ├── algorithms/        # Algorithm implementations
 ├── components/        # React components
 ├── hooks/             # Custom React hooks
-├── services/          # API services
+├── services/          # API service
 ├── types/             # TypeScript interfaces
 ├── App.css            # Main stylesheet
 ├── App.tsx            # Main component
