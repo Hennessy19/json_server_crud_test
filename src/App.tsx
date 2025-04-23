@@ -4,6 +4,7 @@ import PostList from './components/PostList';
 import PostDetail from './components/PostDetail';
 import CreatePost from './components/createPost';
 import EditPost from './components/editPost';
+import LongestSubstring from './components/LongestSubstring';
 import './App.css';
 
 const App: React.FC = () => {
@@ -15,6 +16,7 @@ const App: React.FC = () => {
           <nav>
             <Link to="/">Home</Link>
             <Link to="/create">Create New Post</Link>
+            <Link to="/longest-substring">Longest Substring</Link>
           </nav>
         </header>
         <main>
@@ -23,6 +25,7 @@ const App: React.FC = () => {
             <Route path="/post/:id" element={<PostDetail />} />
             <Route path="/create" element={<CreatePost />} />
             <Route path="/edit/:id" element={<EditPost />} />
+            <Route path='/longest-substring' element={<LongestSubstring />} />
           </Routes>
         </main>
         <footer>
