@@ -6,10 +6,6 @@ This repository contains solutions for three coding challenges:
 2. Longest Substring Without Repeating Characters
 3. Group Anagrams
 
-## Live Demo
-
-[Link to the live demo](#) (Replace with your deployed application URL)
-
 ## Table of Contents
 
 - [Technologies Used](#technologies-used)
